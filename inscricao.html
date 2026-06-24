@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Inscrição</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js" defer>  </script>
+
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <h1>Portal do Candidato</h1>
+
+    </header>
+    
+    <main>
+        <form>
+            <p>
+            <label>Nome completo:</label><br>
+            <input type="text" name="nome" required placeholder="Seu nome aqui!">
+
+            </p>
+
+            <p>
+            <label>CPF:</label><br>
+            <input type="text" name="cpf" required placeholder="XXX.XXX.XXX-XX">
+
+            </p>
+
+            <p>
+            <label>Data de nascimento:</label><br>
+            <input type="date" name="nascimento" required>
+
+            </p>
+
+            <p>
+            <label>Email:</label><br>
+            <input type="email" name="email" required placeholder="seuemail@gmail.com">
+
+            </p>
+
+            <p>
+            <label>Telefone:</label><br>
+            <input type="tel" name="telefone" placeholder="(XX)XXXXX-XXXX" maxlength="14" required>
+
+            </p>
+
+            <p>
+            <label>Estado:</label><br>
+            <select name="estado" required>
+                <option value="">Selecione</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+            </select>
+
+            </p>
+
+            <p>
+            <label>Cidade:</label><br>
+            <input type="text" name="cidade" required placeholder="Sua cidade aqui!">
+
+            </p>
+
+            <p>
+            <label>Língua estrangeira:</label><br>
+                <select name="lingua">
+                <option>Inglês</option>
+                <option>Espanhol</option>
+            </select>
+
+            </p>
+
+            <button type="submit">Enviar inscrição</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 ENEM - Todos os direitos reservados</p>
+    </footer>
+    
+</body>
+</html>
